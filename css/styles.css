@@ -1,0 +1,113 @@
+:root {
+  --iris: #4D5AE5;
+  --ocean: #404BBF;
+  --navy-blue: #2E2F42;
+  --green: #31D0AA;
+  --slate: #434455; 
+  --light-slate: #8E8F99;
+  --cornflower: #E7E9FC;
+  --cloud: #F4F4FD;
+  --navy-blue-modal: #2E2F4266;
+  --grey: #2E2F42B2;
+  --white: #FFFFFF;
+  --dairy: #FCFCFC;
+}
+
+body {
+    color: var(--slate);
+    background: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+.brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.brand .accent {
+    color: var(--iris);
+}
+
+nav a {
+    color: var(--navy-blue);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+address a {
+    color: var(--slate);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.hero-section {
+    background-color: var(--navy-blue);
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    background-color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+h2 {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+
+.team-section li {
+    background-color: var(--white);
+}
+
+.footer-section {
+    background-color: var(--navy-blue);
+    color: var(--cloud);
+}
