@@ -54,20 +54,28 @@ ul, ol {
     color: #404BBF;
 }
 
-address a {
+.address {
+    font-style: normal;
+}
+
+.address .address-el {
     color: #434455;
     font-weight: 400;
-    font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+
+.address .address-el:hover,
+.address .address-el:focus {
+    color: #404BBF;
 }
 
 .hero-section {
     background-color: #2E2F42;
 }
 
-button {
+.button {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -78,17 +86,18 @@ button {
     cursor: pointer;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
     background-color: #404BBF для зміни кольору шрифту при наведені мишкою
 }
 
-.titleh1 {
+.title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .features-titles {
@@ -96,6 +105,12 @@ button:focus {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.features-details {
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -130,4 +145,10 @@ button:focus {
 
 .cloud {
     color: #F4F4FD;
+}
+
+.footer .text-details {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
