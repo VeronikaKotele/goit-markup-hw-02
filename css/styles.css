@@ -39,14 +39,19 @@ ul, ol {
     text-transform: uppercase;
 }
 
-nav a {
+.page-nav .link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     text-align: center;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+    color: #404BBF;
 }
 
 address a {
@@ -55,7 +60,7 @@ address a {
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .hero-section {
@@ -69,42 +74,60 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-h1 {
+button:hover,
+button:focus {
+    background-color: #404BBF для зміни кольору шрифту при наведені мишкою
+}
+
+.titleh1 {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
-h2 {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
-}
-
-h3 {
+.features-titles {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .team-section {
     background-color: #F4F4FD;
 }
 
+.team-section-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+}
+
+.team-member-name {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
 .team-section li {
     background-color: #FFFFFF;
 }
 
-footer {
+.footer {
     background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.cloud {
     color: #F4F4FD;
 }
