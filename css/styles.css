@@ -75,7 +75,7 @@ ul, ol {
     background-color: #2E2F42;
 }
 
-.button {
+button {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -86,9 +86,9 @@ ul, ol {
     cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
-    background-color: #404BBF для зміни кольору шрифту при наведені мишкою
+button:hover,
+button:focus {
+    background-color: #404BBF;
 }
 
 .title {
@@ -123,20 +123,28 @@ ul, ol {
     color: #2E2F42;
     font-weight: 500;
     font-size: 36px;
-    line-height: 40px;
     letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-section .team-member {
+    background-color: #FFFFFF;
 }
 
 .team-member-name {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     letter-spacing: 0.02em;
 }
 
-.team-section li {
-    background-color: #FFFFFF;
+.team-member-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer {
